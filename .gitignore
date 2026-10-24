@@ -1,0 +1,47 @@
+# Personal and mutable Muse home state
+/memory/
+/dreams/
+/user/
+/workspace/
+/subscriptions/
+/config/
+/hooks/
+/MEMORY.md
+/USER.md
+/PROACTIVE_PREFERENCES.md
+/TOOLS.md
+/HEARTBEAT.md
+
+# Product binaries and assets intentionally excluded from this candidate
+/assets/
+/magic-moment/assets/fonts/
+/skills/booking/assets/airline-logos/
+/spaces/icons/
+
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/.cache/
+**/__pycache__/
+**/coverage/
+*.log
+*.tmp
+*.cache
+
+# Local state and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.sqlite
+*.sqlite3
+*.db
+
+# Operating system and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
