@@ -1,0 +1,195 @@
+{
+  "still_sources": {
+    "cww-glasses": {
+      "frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-glasses.webp",
+      "reference_images": ["~/assets/avatar/reference/starfire-glasses.webp"],
+      "static_image_prompt": "One supplied image shows the character and the other shows a pair of eyewear on a light background. Show the character exactly as it appears in its image, now wearing that exact pair of eyewear. Fit the eyewear naturally over the character's existing eyes; if the character has no eyes or face, rest it flat against the front surface of its upper form where a face would be, touching that surface as if worn and never floating in front of it, without adding a face, ears, a nose, or other anatomy. Reproduce the eyewear faithfully: the same rounded oval frame shape, thick glossy black frame, two equally dark, opaque tinted lenses (neither lens is clear, and no eye shows through either one), and the small round camera lens and indicator light at the outer front corners, scaled to the character and rendered in the character's illustration style while keeping the exact frame design. If the character is holding, gripping, or carrying a clearly separate object in its hands, paws, mouth, or beak, set that one object down intact so it rests on the ground beside the character, and leave those hands, paws, mouth, or beak empty and relaxed; the object appears exactly once. Keep everything else from the character image identical: the same character, face, expression, clothing, proportions, colors, rendering style, and framing, and the same pose apart from setting down a held object. Place the character on a pure, bright white background (#FFFFFF) with no grey tint, gradient, or vignette, even if the character image's background is grey or off-white. Add no other objects, text, or logos.",
+      "derived_still_prompt": "The subject wears one pair of glasses in the supplied image. Keep that exact pair worn in the same place, with the same rounded oval frame shape, thick glossy black frame, two equally dark, opaque tinted lenses that no eye shows through, small corner camera details, size, and fit. Do not remove, redesign, recolor, duplicate, or replace the glasses."
+    }
+  },
+  "variants": {
+    "cww-don-glasses": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-don-glasses-start.webp",
+      "first_frame_prompt": "Edit the supplied image to show the moment just before the subject puts on its glasses. Move that exact pair of glasses up off its eyes so it rests on its forehead or the top of its head, tilted up and fully visible; on a subject without a face, rest it flat against its upper front surface, near its top, touching that surface rather than floating in front of it. Lower any raised arms, hands, paws, or wings to a relaxed resting position. Keep everything else identical: the same subject, expression, body, clothing, proportions, framing, scale, position in the frame, lighting, and {background}. Do not remove, redesign, recolor, duplicate, or replace the glasses, and add nothing else.",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-don-glasses.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_working.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-don-glasses.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a happy, relaxed glasses-on pose, wearing the glasses from the supplied image, with both existing upper limbs or limb ends lowered and resting at its sides. Preserve the exact appendage and digit counts; do not add hands, digits, ears, a head, or other anatomy. Add no logos, text, or other new props.",
+      "video_prompt": "Locked off, stationary camera. Character lifts both arms, takes hold of the glasses resting on its forehead, settles them down onto its face, then lowers its arms back to its sides. The character looks happy as it puts the glasses on. Ends in the relaxed glasses-on pose."
+    },
+    "cww-wave": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-wave.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-wave.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_milestone_level_up.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-wave.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a relaxed resting pose with a friendly look on its face, ready to wave. Preserve the exact appendage and digit counts; do not add hands, digits, or other anatomy. Add no logos, text, or new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, start frame and end frame are identical. Character lifts up single arm and waves with a friendly look on its face."
+    },
+    "cww-listen": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-listen.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-listen.webp",
+      "reference_video": "~/assets/avatar/reference/hatch.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-listen.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a relaxed resting pose with an attentive look on its face. Preserve its exact anatomy and add no headphones, instruments, symbols, signal rings, or other new props.",
+      "video_prompt": "Locked off, stationary camera. First frame and last frame are identical. Right away, character leans its head and upper body toward the viewer's right (the right edge of the picture, which is the character's own left side) and cups its left hand behind its left ear, as if listening closely. It holds that listening pose for most of the clip, then returns to the starting pose at the end. Both hands stay visible throughout. The character looks attentive."
+    },
+    "cww-heart": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-idle-c.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-heart.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_milestone_level_up.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-heart.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a warm, affectionate pose, holding exactly one large, glossy, 3D red heart, about half as wide as its torso, in both hands in front of its chest. If it has no hands, it hugs the heart against its chest with both arms. Preserve the exact appendage and digit counts; do not add hands, digits, or other anatomy. Add no text, logos, or other new props.",
+      "video_prompt": "Locked off, stationary camera. Character brings both hands up in front of its chest and a single large, glossy, 3D red heart pops into view between them; it holds the heart in both hands. The character looks warm and affectionate. Ends holding the heart pose."
+    },
+    "cww-jump-in-circle": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-jump-in-circle-start.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-derived-cww-jump-in-circle.webp",
+      "derived_last_frame": "circle_inset",
+      "reference_video": "~/assets/avatar/reference/hatch_milestone_level_up.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-jump-in-circle.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the complete humanoid facing the camera, standing centered in a happy landing pose after one jump, with its feet back on the ground. Preserve its exact anatomy, appendage and digit counts, proportions, and supported posture. Add no text, logos, or other new props.",
+      "video_prompt": "Locked off, stationary camera. Animate smoothly from the first frame to the last frame in one continuous shot. The character makes a small jump, staying fully inside the frame, a thin grey circle opens around its whole body, and as the circle shrinks around its head it floats slowly down into it, ending exactly like the last frame. The circle is only ever a thin grey outline, never filled in; once it has opened it only gets smaller, and it stops at exactly its size in the last frame, never smaller. Only the part of the character inside the circle can be seen; anything outside the circle is hidden behind the plain background around it."
+    },
+    "cww-dance-loop": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-dance-loop.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-dance-loop.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_milestone_level_up.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-dance-loop.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a relaxed, joyful resting pose, ready to dance. Preserve the exact appendage and digit counts; do not add hands, digits, or other anatomy. Add no logos, text, or new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, first frame and last frame are identical. Character does a cute little dance while turning one slow, full 360-degree spin in place, and finishes facing the camera exactly as it started. The character looks joyful."
+    },
+    "cww-pick-me": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-pick-me.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-pick-me.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_milestone_level_up.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-pick-me.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a relaxed resting pose with an eager, hopeful look on its face. Preserve the exact appendage and digit counts; do not add hands, digits, or other anatomy. Add no logos, text, or new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, first frame and last frame are identical. Character lifts one hand and points it clearly at the middle of its own chest, a big, unmistakable \"pick me\" gesture, taps its chest twice, and nods its head. The character looks eager and hopeful."
+    },
+    "cww-listen-b": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-listen-b.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-listen-b.webp",
+      "reference_video": "~/assets/avatar/reference/hatch.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-listen-b.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a relaxed resting pose with a curious, expectant look on its face. Preserve its exact anatomy and add no headphones, instruments, symbols, signal rings, or other new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, first frame and last frame are identical. Character tilts its head slightly and leans in a little, waiting to hear. The character looks curious and expectant."
+    },
+    "cww-idle-c": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-idle-c.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-idle-c.webp",
+      "reference_video": "~/assets/avatar/reference/hatch.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-idle-c.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a calm resting pose with a relaxed, thoughtful look on its face. Preserve the exact appendage and digit counts; do not add hands, digits, or other anatomy. Add no logos, text, or new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, first frame and last frame are identical. Character raises one hand to its chin as if thinking and sways its whole body from side to side like a slow metronome for the entire clip, leaning clearly to the left and then clearly to the right, about one sway each way per second, shifting its weight from one foot to the other. The sway is easy to see at a glance; it never stands still. Its feet stay planted; it never lifts its knees or marches in place. If it has no visible legs, it sways from side to side instead. The character looks relaxed."
+    },
+    "cww-bounce": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-bounce.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-bounce.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_milestone_level_up.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-bounce.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a relaxed resting pose with a cheerful look on its face, ready to bounce. Preserve the exact appendage and digit counts; do not add hands, digits, or other anatomy. Add no logos, text, or new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, first frame and last frame are identical. Character holds still facing the camera for a moment, then bobs up and down in place with quick, springy knee bends, two or three bobs per second, its whole body rising and dipping a little while its feet stay planted. Without ever stopping the bounce, it slowly sways its whole body toward the left for about two seconds, then smoothly over toward the right, then back to the center, where it stops bobbing and holds still. Its head moves together with its body; there is no separate head turn. If it has no legs, its whole body squashes and springs in the same rhythm instead. The character looks cheerful."
+    },
+    "cww-unsure": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-unsure.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-unsure.webp",
+      "reference_video": "~/assets/avatar/reference/hatch.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-unsure.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a relaxed resting pose with a slightly puzzled look on its face. Preserve the exact appendage and digit counts; do not add hands, digits, or other anatomy. Add no logos, text, or new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, first frame and last frame are identical. Character looks to either side and shrugs its shoulders with palms to the air. The character looks unsure."
+    },
+    "cww-fix": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-fix.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-fix.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_working.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-fix.mp4",
+      "still_source": "cww-glasses",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera holding exactly one simple wrench with both existing hands, or both existing upper-limb ends when hands are not present, with a slightly uncertain look on its face. Preserve the exact appendage and digit counts; do not add hands, digits, or other anatomy. Add no logos, text, or other new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, first frame and last frame are identical. Character holds the wrench with both hands and looks around with uncertainty."
+    },
+    "cww-computer": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-computer.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-cww-computer.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_working.mp4",
+      "output_filename": "avatar-{unix_seconds}-cww-computer.mp4",
+      "darkmode_background": "#111112",
+      "availability": {
+        "paired_device_capabilities": ["avatar_custom_wakeword"],
+        "darkmode_paired_device_capabilities": ["avatar_custom_wakeword"]
+      },
+      "static_image_prompt": "Show the complete humanoid sitting on the ground with its legs out in front of it, turned three quarters toward the right edge of the picture, with one generic open laptop resting on its lap and both hands on the keyboard. Its legs and the laptop point toward the right side of the picture. It looks at the screen with a happy, focused expression. Preserve its exact anatomy, appendage and digit counts, and proportions. Add no headphones, desk, chair, text, logos, or other new props.",
+      "video_prompt": "Locked off, stationary camera. Perfect loop, first frame and last frame are identical. Character types on the laptop in its lap at a relaxed, steady rhythm, its head nodding gently as it works. Partway through it glances up toward the viewer with a happy blink, then looks back down at the screen and keeps typing. The laptop stays on its lap, rigid and unchanged. The character looks content."
+    }
+  }
+}

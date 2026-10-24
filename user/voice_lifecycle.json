@@ -1,0 +1,15 @@
+{
+  "selection_revision": 0,
+  "pre_onboarding_default_revision": null,
+  "personalized_name": null,
+  "automatic_selection_revision": null,
+  "explicit_choice_at_ms": null,
+  "explicit_choice_history_checked": true,
+  "legacy_history_checked": true,
+  "legacy_invitation_unverified": false,
+  "first_connected_call_at_ms": null,
+  "invitation_admitted_at_ms": null,
+  "invitation_delivered_at_ms": null,
+  "invitation_assistant_message_id": null,
+  "pending_invitation": null
+}

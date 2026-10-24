@@ -1,0 +1,25 @@
+{
+  "cosmos_handshake": {
+    "model": "one_recipe_s2s_v1",
+    "session": {
+      "audio": {
+        "input": {
+          "turn_detection": {
+            "type": "asr_ep_vad",
+            "vad_engine": {
+              "asr_ep_vad": {
+                "tier": "realtimeai.llm.ep_rl_ramp1500to500_gtqfix_resume2200_260806-nsvdnkjz_checkpoint_0002400_v2"
+              }
+            }
+          }
+        }
+      },
+      "llm_tier": "realtimeai.llm.s2s_rc20_v0c_rl_r3_260907-lg210sqt_checkpoint_0000100_v2",
+      "model": "one_recipe_s2s_v1"
+    }
+  },
+  "cosmos_handshake_origin": {
+    "baseline_sha256": "5ab235eeed64404132f9720645566105faf86747706107503885b5aee36d4ff2",
+    "profile_id": "cosmos_rc20_asr_ep"
+  }
+}

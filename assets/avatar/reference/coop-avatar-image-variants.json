@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "aod": {
+      "image_path": "~/workspace/avatars/.frames/static-{unix_seconds}-aod.webp",
+      "availability": {
+        "paired_device_capabilities": ["avatar_extra_states"]
+      },
+      "static_image_prompt": "Use centered portrait framing appropriate to the humanoid's complete existing form and show a distinctive action pose unique to the character. Preserve its exact face state, appendage and digit counts, anatomy, and identity; do not add a head, hands, or digits. No props, new logos, text, added symbols, effects, or busy background elements."
+    }
+  }
+}

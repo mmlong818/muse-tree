@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "taking_notes": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-taking_notes.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-taking_notes.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_working.mp4",
+      "output_filename": "avatar-{unix_seconds}-taking_notes.mp4",
+      "availability": {
+        "paired_device_capabilities": ["avatar_extra_states"]
+      },
+      "static_image_prompt": "Show the humanoid in a focused note-taking state, oriented three quarters toward the camera and using one existing upper limb or limb end to write in a small plain notebook or tablet. Preserve the exact appendage and digit counts; do not add hands or digits. No visible text, letters, logos, or readable marks.",
+      "video_prompt": "Seamless loop. The humanoid uses one existing upper limb or limb end to write short note-taking strokes, pauses to angle its existing face or forward-facing focal area upward, then returns to writing. Preserve the exact appendage and digit counts; do not add hands or digits. No visible text, letters, logos, or readable marks appear. Loop starts and ends in the same state. Static camera."
+    },
+    "playing_music": {
+      "first_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-playing_music.webp",
+      "last_frame": "~/workspace/avatars/.frames/static-{unix_seconds}-playing_music.webp",
+      "reference_video": "~/assets/avatar/reference/hatch_working.mp4",
+      "output_filename": "avatar-{unix_seconds}-playing_music.mp4",
+      "availability": {
+        "paired_device_capabilities": ["avatar_extra_states"]
+      },
+      "static_image_prompt": "Show the humanoid facing the camera in a listening-to-music state, wearing simple rounded headphones fitted to its existing form, with one existing upper limb or limb end near an ear cup. Preserve the exact appendage and digit counts; do not add hands, digits, ears, or a head. No logos, instruments, text, or busy background props.",
+      "video_prompt": "Seamless loop. The humanoid listens through simple rounded headphones, gently sways with a small rhythmic motion of its existing upper form, and uses one existing upper limb or limb end to adjust an ear cup. Preserve the exact appendage and digit counts; do not add hands, digits, ears, or a head. Loop starts and ends in the same listening state. Static camera."
+    }
+  }
+}

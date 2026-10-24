@@ -1,0 +1,6 @@
+llm:
+  reasoning:
+    root_agent:
+      effort: high
+    subagent:
+      effort: high

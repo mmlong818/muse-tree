@@ -1,0 +1,108 @@
+version: 1
+entries:
+  asana:
+    status: available
+  box:
+    status: available
+  calendly:
+    status: available
+  canva:
+    status: available
+  dropbox:
+    status: available
+  evernote:
+    status: available
+  facebook_cli:
+    status: available
+  figma:
+    status: available
+  function_health:
+    status: available
+  ghl:
+    status: available
+  github:
+    status: available
+  gmail:
+    status: available
+  google_calendar:
+    status: available
+  google_contacts:
+    status: available
+  google_docs:
+    status: available
+  google_drive:
+    status: available
+  google_forms:
+    status: available
+  google_sheets:
+    status: available
+  google_slides:
+    status: available
+  google_tasks:
+    status: available
+  granola:
+    status: available
+  healthex:
+    status: available
+  instagram:
+    status: available
+  instagram_messages:
+    status: available
+  klaviyo:
+    status: available
+  linear:
+    status: available
+  lovable:
+    status: available
+  messenger_read:
+    status: available
+  meta_ads:
+    status: connected
+  notion:
+    status: available
+  onepassword:
+    status: available
+  opentable:
+    status: available
+  outlook_calendar:
+    status: available
+  outlook_contacts:
+    status: available
+  outlook_mail:
+    status: available
+  peloton:
+    status: available
+  philips_hue:
+    status: available
+  plaid:
+    status: available
+  printify:
+    status: available
+  quickbooks:
+    status: available
+  replit:
+    status: available
+  shopify:
+    status: available
+  slack:
+    status: available
+  spotify:
+    status: available
+  stripe:
+    status: available
+  tessie:
+    status: available
+  threads:
+    status: available
+  threads_messages:
+    status: available
+  todoist:
+    status: available
+  vercel:
+    status: available
+  withings:
+    status: available
+  zapier:
+    status: available
+  zoom:
+    status: available

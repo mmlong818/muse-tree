@@ -1,0 +1,32 @@
+{
+ "name": "bun-plugin-tailwind",
+ "version": "0.0.15",
+ "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+ "license": "MIT",
+ "repository": {
+   "type": "git",
+   "url": "https://github.com/tailwindlabs/tailwindcss.git",
+   "directory": "packages/@tailwindcss-bun-plugin"
+  },
+  "bugs": "https://github.com/tailwindlabs/tailwindcss/issues",
+  "homepage": "https://tailwindcss.com",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir=dist --target=bun && cp index.d.ts dist",
+    "dev": "pnpm run build -- --watch"
+  },
+  "dependencies": {},
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^20.14.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
