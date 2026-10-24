@@ -1,0 +1,2 @@
+openai>=1.0
+apscheduler>=3.10

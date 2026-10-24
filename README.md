@@ -1,6 +1,6 @@
 # Muse Tree 完整目录快照
 
-这是 Muse home 目录的一份完整源目录快照。仓库按原始相对路径保留产品文档、技能和连接器、Space 模板与运行时、Magic Moment 工具、依赖、构建产物、资源文件、配置、hooks、subscriptions、user、memory、dreams、workspace，以及根目录中的 Markdown 文件。
+这是 Muse home 目录的一份完整源目录快照。仓库按原始相对路径保留产品文档、技能和连接器、Space 模板与运行时、Magic Moment 工具、运行时编排参考脚手架、依赖、构建产物、资源文件、配置、hooks、subscriptions、user、memory、dreams、workspace，以及根目录中的 Markdown 文件。
 
 本仓库并非 Meta 或 Muse 的官方发行版，也不保证能在普通电脑上独立运行。部分内容依赖 Muse VM、内部运行时路径、daemon、浏览器镜像、连接器或服务端能力；保存完整目录的目的，是忠实记录该快照，而不是声明其具备独立构建或运行条件。
 
@@ -13,7 +13,7 @@
 
 ## 构建与运行边界
 
-根目录没有统一构建入口。可识别的源码模块和命令记录在各自目录的说明文件中。例如，`spaces/ts-runtime/` 使用 Bun，并包含已经生成的 `dist/` 与依赖快照。`magic-moment/` 依赖 Muse VM 中预置的 PIL、ffmpeg、Chromium、Playwright bundle 和转写服务。
+根目录没有统一构建入口。可识别的源码模块和命令记录在各自目录的说明文件中。例如，`spaces/ts-runtime/` 使用 Bun，并包含已经生成的 `dist/` 与依赖快照；`magic-moment/` 依赖 Muse VM 中预置的 PIL、ffmpeg、Chromium、Playwright bundle 和转写服务；`runtime-scaffold/` 是一个 Python 参考脚手架，声明依赖 OpenAI 兼容的 LLM API 和 APScheduler，并明确简化了真实运行时的沙箱、记忆检索与上下文压缩能力。
 
 本次发布验证的是目录和文件内容的完整性，没有把构建成功、可移植性或普通电脑上的独立运行作为验证结论。
 
